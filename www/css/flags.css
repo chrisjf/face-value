@@ -43,6 +43,21 @@
     background-image: url(../img/header-flags/BGN@2x.png);
 }}
 
+.BND-flag {
+    background-image: url(../img/flags/BND.png);
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min--moz-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+.BND-flag {
+    background-image: url(../img/flags/BND@2x.png);
+}
+}
+#header.BND-flag {
+    background-image: url(../img/header-flags/BND.png);
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min--moz-device-pixel-ratio: 2), (min-resolution: 2dppx) {#header.BND-flag {
+    background-image: url(../img/header-flags/BND@2x.png);
+}}
+
 .BRL-flag {
     background-image: url(../img/flags/BRL.png);
 }
@@ -408,6 +423,7 @@
 ARS
 AUD
 BGN
+BND
 BRL
 CAD
 CHF
@@ -448,6 +464,10 @@ img/flags/BGN.png
 img/flags/BGN@2x.png
 img/header-flags/BGN.png
 img/header-flags/BGN@2x.png
+img/flags/BND.png
+img/flags/BND@2x.png
+img/header-flags/BND.png
+img/header-flags/BND@2x.png
 img/flags/BRL.png
 img/flags/BRL@2x.png
 img/header-flags/BRL.png
